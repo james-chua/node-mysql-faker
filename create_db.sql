@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS faker_demo;
 
 CREATE DATABASE faker_demo;
 
-USE faker_marak;
+USE faker_demo;
 
 DROP TABLE IF EXISTS users;
 
