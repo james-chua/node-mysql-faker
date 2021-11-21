@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS faker_demo;
+
+CREATE DATABASE faker_demo;
+
+USE faker_marak;
+
+DROP TABLE IF EXISTS users;
+
+CREATE TABlE users (
+    id INT UNSiGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255)
+);
